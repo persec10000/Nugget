@@ -127,9 +127,8 @@ Or eb deploy --staged (optional)
 
 ## Authors
 
-* **Ali El-Shayeb**
+* **Kirill Nizovtcev**
 * **Chris**
-* **Gabriel**
 
 
 ## License
