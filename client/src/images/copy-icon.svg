@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="---ui-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="talent-search" transform="translate(-668.000000, -624.000000)" fill="#A1A6F7" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(658.000000, 608.000000)">
+                <path d="M19.96875,16 C20.5383008,16 21,16.4616992 21,17.03125 L21,23.21875 C21,23.7883008 20.5383008,24.25 19.96875,24.25 L13.78125,24.25 C13.2116992,24.25 12.75,23.7883008 12.75,23.21875 L12.75,17.03125 C12.75,16.4616992 13.2116992,16 13.78125,16 L19.96875,16 Z M13.78125,24.9375 C12.8335313,24.9375 12.0625,24.1664687 12.0625,23.21875 L12.0625,18.75 L11.03125,18.75 C10.4616992,18.75 10,19.2116992 10,19.78125 L10,25.96875 C10,26.5383008 10.4616992,27 11.03125,27 L17.21875,27 C17.7883008,27 18.25,26.5383008 18.25,25.96875 L18.25,24.9375 L13.78125,24.9375 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

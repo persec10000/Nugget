@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <g id="---ui-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Individual-List-Side-Panel" transform="translate(-1122.000000, -252.000000)">
+            <g id="file-solid-(1)" transform="translate(1122.000000, 252.000000)">
+                <g id="Group-12">
+                    <path d="M8.75,5.3125 L8.75,0 L0.9375,0 C0.41796875,0 0,0.41796875 0,0.9375 L0,19.0625 C0,19.5820312 0.41796875,20 0.9375,20 L14.0625,20 C14.5820312,20 15,19.5820312 15,19.0625 L15,6.25 L9.6875,6.25 C9.171875,6.25 8.75,5.828125 8.75,5.3125 Z M15,4.76171875 L15,5 L10,5 L10,0 L10.2382812,0 C10.4882812,0 10.7265625,0.09765625 10.9023438,0.2734375 L14.7265625,4.1015625 C14.9023438,4.27734375 15,4.515625 15,4.76171875 Z" id="Shape" fill="#E0E0E0" fill-rule="nonzero"></path>
+                    <text id="R" font-family="HanziPenTC-W5, HanziPen TC" font-size="10" font-weight="bold" fill="#F9F9F9">
+                        <tspan x="4" y="15">R</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

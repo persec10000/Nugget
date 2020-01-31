@@ -1,0 +1,51 @@
+.animation-card {
+  text-align: left;
+  border-left: 6px solid;
+  border-radius: 5.2px;
+  box-shadow: 0 10px 20px 0 rgba(141, 151, 200, 0.15);
+  background-color: #fff;
+  padding: 25px;
+  height: 85px;
+  margin: 0 25px !important;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'AvenirNext', sans-serif;
+    margin-bottom: 20px;
+    .card-title {
+      font-size: 16px;
+      font-weight: 500;
+      color: #4a4a4a;
+    }
+    .card-percent {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: right;
+      color: #4a4a4a;
+    }
+  }
+  .card-content {
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    font-family: 'Avenir', sans-serif;
+    font-size: 13px;
+    line-height: 1.41;
+    letter-spacing: 0.23px;
+    color: #4f4f4f;
+    opacity: 0.75;
+    max-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  .animation-card {
+    .context {
+      .card-percent {
+        font-size: 8px;
+      }
+    }
+  }
+}

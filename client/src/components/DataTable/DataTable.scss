@@ -1,0 +1,263 @@
+.toolbarRoot {
+  padding-right: 8px;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  .toolbar_title {
+    flex: 0 0 auto;
+    .search_input {
+      margin: 12px 0px !important;
+    }
+  }
+  .toolbar_actions {
+    color: pink;
+  }
+  .toolbar_spacer {
+    flex: 1 1 100%;
+  }
+  .member_count {
+    position: relative;
+    top: -5px;
+    left: 10px;
+    font-weight: bold;
+  }
+  .member_toolbar {
+    margin-top: 10px;
+  }
+}
+
+.rank_25:hover {
+  background-color: #c8e6c9 !important;
+}
+
+.rank_75:hover {
+  background-color: #fff9c4 !important;
+}
+
+.rank_100:hover {
+  background-color: #ffcdd2 !important;
+}
+
+.rank_no:hover {
+  background-color: rgba(216, 216, 216, 0.15) !important;
+}
+
+.highlight_true {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #b7dcff;
+}
+
+.highlight_false {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.tableRoot {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  .tableWrapper {
+    position: relative;
+  }
+}
+
+.icons {
+  font-size: 1.3em;
+  margin: 5px;
+  cursor: pointer;
+  &.thumbup,
+  &.thumbdown {
+    color: #5370d1;
+  }
+  &.fa-star {
+    color: #e3dd19;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.user-row:hover {
+  .hidden {
+    opacity: 1;
+    color: #c8c8c8;
+    &.thumbup:hover,
+    &.thumbdown:hover {
+      color: #5370d1;
+    }
+    &.fa-star:hover {
+      color: #e3dd19;
+    }
+    &.fa-trash:hover {
+      color: #d0021b;
+    }
+  }
+}
+
+.delete-user {
+  display: none !important;
+}
+
+.deleteIcon {
+  margin-left: 10px !important;
+}
+
+.headerLabel {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.newheaderLabel {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #826af9 !important;
+}
+.table-cell {
+  color: #826af9 !important;
+}
+.addbutton {
+  position: absolute;
+  right: 18px;
+}
+.roundBT {
+  background-color: blue;
+}
+.root_container {
+  position: absolute;
+  right: 18px;
+  .clear-container {
+    float: right;
+    width: 50px;
+    height: 50px;
+    position: relative;
+
+    div {
+      cursor: pointer;
+    }
+    div:hover {
+      color: lightgreen;
+    }
+
+    .item-tool-clear {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+    }
+    .item-tool-top {
+      background-color: #253858;
+      position: absolute;
+      top: -12px;
+      right: 14px;
+      width: 20px;
+      height: 20px;
+      font-size: 12px;
+      border-radius: 50%;
+      line-height: 20px;
+      text-align: center;
+      text-decoration: underline;
+      color: white;
+    }
+    .item-tool-bottom {
+      background-color: #253858;
+      position: absolute;
+      bottom: -11px;
+      right: 13px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      border-radius: 50%;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+    }
+    .item-tool-left {
+      background-color: #253858;
+      position: absolute;
+      top: 14px;
+      left: -12px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      border-radius: 50%;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+    }
+    .item-tool-right {
+      background-color: #253858;
+      position: absolute;
+      top: 14px;
+      right: -15px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      border-radius: 50%;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+    }
+  }
+}
+
+.pipe-header {
+  width: 100%;
+  position: relative;
+}
+.form-control {
+  width: 125px;
+  height: 46px;
+  opacity: 0.5;
+  border-radius: 5px;
+  border: 1px solid #826af9;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.addform-control {
+  width: 80px;
+  height: 30px;
+  opacity: 0.5;
+  border-radius: 5px;
+  border: 1px solid #826af9;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.rowC {
+  display: flex;
+  flex-direction: row;
+}
+.table_header {
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.card-options1 {
+  margin-top: 40px;
+  .text-item1 > span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #0a1a40;
+  }
+  .text-icon1 {
+    color: #a1a6f7;
+    width: 17px;
+    text-align: center;
+    margin: auto;
+    & > * {
+      margin: auto;
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .copy-icon1 {
+    height: 1.5em;
+    padding-left: 6px;
+  }
+  .menu-title1 {
+    & > span {
+      font-size: 12px !important;
+      padding-left: 10px;
+    }
+  }
+}
